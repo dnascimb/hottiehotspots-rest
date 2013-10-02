@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model
+END
+Hotspot.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/Hotspot.java
+END
+GEORegions.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/GEORegions.java
+END
+GEODmas.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/GEODmas.java
+END
+HotspotRating.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/HotspotRating.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/User.java
+END
+GEOCities.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/GEOCities.java
+END
+Interest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/Interest.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/hhspots/!svn/ver/205/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/Location.java
+END
+Label.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/Label.java
+END
+GEOCountries.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/model/GEOCountries.java
+END

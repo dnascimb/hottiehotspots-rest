@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/hhspots/!svn/ver/212/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service
+END
+HotspotTemperatureService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/HotspotTemperatureService.java
+END
+HotspotTemperatureServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/HotspotTemperatureServiceImpl.java
+END
+LoginBusinessService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/LoginBusinessService.java
+END
+UserWebService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/UserWebService.java
+END
+LoginWebService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/LoginWebService.java
+END
+UserBusinessService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/UserBusinessService.java
+END
+GEORegionsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEORegionsService.java
+END
+GEORegionsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEORegionsServiceImpl.java
+END
+HotspotService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/HotspotService.java
+END
+HotspotServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/HotspotServiceImpl.java
+END
+LabelService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/LabelService.java
+END
+LabelServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/LabelServiceImpl.java
+END
+LocationBusinessService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/LocationBusinessService.java
+END
+GEOCitiesService.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEOCitiesService.java
+END
+GEOCitiesServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEOCitiesServiceImpl.java
+END
+LocationWebService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/LocationWebService.java
+END
+GEOCountriesService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEOCountriesService.java
+END
+GEOCountriesServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEOCountriesServiceImpl.java
+END
+GEOAddressHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/rest/service/GEOAddressHelper.java
+END

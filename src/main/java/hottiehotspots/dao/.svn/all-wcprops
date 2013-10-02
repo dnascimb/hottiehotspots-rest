@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/hhspots/!svn/ver/203/hottiehotspots-rest/src/main/java/hottiehotspots/dao
+END
+LocationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hhspots/!svn/ver/205/hottiehotspots-rest/src/main/java/hottiehotspots/dao/LocationDAO.java
+END
+UserDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hhspots/!svn/ver/211/hottiehotspots-rest/src/main/java/hottiehotspots/dao/UserDAO.java
+END
+HotspotDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hhspots/!svn/ver/210/hottiehotspots-rest/src/main/java/hottiehotspots/dao/HotspotDAO.java
+END

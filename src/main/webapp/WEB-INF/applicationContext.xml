@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:sec="http://www.springframework.org/schema/security" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+    
+	<context:annotation-config />
+	<context:component-scan base-package="hottiehotspots" />
+	
+    <bean
+        class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+
+    <bean id="entityManagerFactory"
+        class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="jpaVendorAdapter">
+            <bean
+                class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <property name="database" value="MYSQL" />
+                <property name="showSql" value="true" />
+            </bean>
+        </property>
+    </bean>
+	
+    <bean id="dataSource"
+        class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost/hh" />
+        <property name="username" value="root" />
+        <property name="password" value="" />
+    </bean>
+
+    <bean id="transactionManager"
+        class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory" />
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
+<!-- 
+	<bean id="mailer" class="hottiehotspots.general.HHMailer">
+		<property name="sender"><value>support@thehottiehotspot.com</value></property>
+		<property name="smtpHost"><value>mail.thehottiehotspot.com</value></property>
+		<property name="smtpUser"><value>support+thehottiehotspot.com</value></property>
+		<property name="smtpPassword"><value>35Jellon</value></property>
+		<property name="smtpPort"><value>587</value></property>
+		<property name="debug"><value>true</value></property>
+	</bean>
+--> 	
+    	
+ 	<bean id="hotspotService" class="hottiehotspots.rest.service.HotspotServiceImpl" />
+ 	<bean id="hotspotTemperatureService" class="hottiehotspots.rest.service.HotspotTemperatureServiceImpl" />
+	<bean id="geoCitiesService" class="hottiehotspots.rest.service.GEOCitiesServiceImpl" />
+	<bean id="geoRegionsService" class="hottiehotspots.rest.service.GEORegionsServiceImpl" />
+	<bean id="geoCountriesService" class="hottiehotspots.rest.service.GEOCountriesServiceImpl" />
+	<bean id="labelService" class="hottiehotspots.rest.service.LabelServiceImpl" />
+
+
+    
+</beans>

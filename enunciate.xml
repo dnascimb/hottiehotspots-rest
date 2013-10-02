@@ -1,0 +1,12 @@
+<enunciate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://enunciate.codehaus.org/schemas/enunciate-1.25.xsd" excludeUnreferencedClasses="false">
+  
+	<api-classes>
+		<include pattern="hottiehotspots.*"/>
+	</api-classes> 
+	 
+	<modules>   
+	  <docs disableRestMountpoint="true" title="HottieHotspots API" includeDefaultDownloads="false" includeExampleXml="false" copyright="Dan Nascimbeni"/>  
+	</modules>
+	
+</enunciate>
